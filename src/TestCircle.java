@@ -4,5 +4,6 @@ public class TestCircle {
 		Circle cercle1 = new Circle();
 		System.out.println(cercle1.getRadius());
 		System.out.println(cercle1.getArea());
+		System.out.println(cercle1.getColor());
 	}
 }
