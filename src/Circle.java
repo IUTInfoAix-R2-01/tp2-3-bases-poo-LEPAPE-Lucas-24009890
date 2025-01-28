@@ -29,4 +29,12 @@ public class Circle {
 	public double getArea() {
 		return radius*radius*Math.PI;
 	}
+	
+	public void setRadius(double newRadius) {
+		radius = newRadius;
+	}
+	
+	public void setColor(String newColor) {
+		color = newColor;
+	}
 }

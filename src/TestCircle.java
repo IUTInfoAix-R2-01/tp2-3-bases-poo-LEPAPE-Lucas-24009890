@@ -5,5 +5,7 @@ public class TestCircle {
 		System.out.println(cercle1.getRadius());
 		System.out.println(cercle1.getArea());
 		System.out.println(cercle1.getColor());
+		cercle1.setColor("blue");
+		System.out.println(cercle1.getColor());
 	}
 }
