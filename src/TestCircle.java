@@ -8,5 +8,6 @@ public class TestCircle {
 		cercle1.setColor("blue");
 		System.out.println(cercle1.getColor());
 		System.out.println(cercle1.toString());
+		System.out.println(cercle1.getCircumference());
 	}
 }
