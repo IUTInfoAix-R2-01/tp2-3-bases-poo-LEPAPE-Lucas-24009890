@@ -7,5 +7,6 @@ public class TestCircle {
 		System.out.println(cercle1.getColor());
 		cercle1.setColor("blue");
 		System.out.println(cercle1.getColor());
+		System.out.println(cercle1.toString());
 	}
 }
