@@ -13,6 +13,15 @@ public class Circle {
 		color = "red";
 	}
 	
+	public Circle(double r, String c) {
+		radius = r
+		color = c
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	
 	public double getRadius() {
 		return radius;
 	}
