@@ -36,8 +36,8 @@ public class Employee {
 		return 12*salary;
 	}
 	
-	public void raiseSalary(int percent) {
-		salary *= 1+percent/100;
+	public int raiseSalary(int percent) {
+		return salary *= 1+percent/100;
 	}
 	
 	public String toString() {
