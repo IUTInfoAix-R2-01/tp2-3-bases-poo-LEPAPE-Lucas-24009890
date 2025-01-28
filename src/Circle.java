@@ -14,8 +14,8 @@ public class Circle {
 	}
 	
 	public Circle(double r, String c) {
-		radius = r
-		color = c
+		radius = r;
+		color = c;
 	}
 	
 	public String getColor() {
